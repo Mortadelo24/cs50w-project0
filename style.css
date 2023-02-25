@@ -219,15 +219,15 @@ a>img {
 
 
     padding: 10px;
-
+    filter: grayscale(100%);
+    max-width: 100%;
 
 }
 
 a>img:hover {
 
-
-    padding: 0px;
-    padding-bottom: 0px;
+    filter: grayscale(0%);
+    
 
 
 }
