@@ -1,0 +1,46 @@
+html,
+body {
+  background-color: #F8F9FA;
+}
+
+nav {
+  height: 10%;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav ul li {
+  padding: 2% 2% 2% 2%;
+}
+nav ul li img {
+  width: 30px;
+  height: 30px;
+}
+nav ul li a:hover img {
+  filter: drop-shadow(2px 2px 5px green);
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.imgbig {
+  width: 100%;
+  height: auto;
+}
+
+.org {
+  padding: 5%;
+}
+.org h1 {
+  padding-bottom: 2%;
+}
+.org .topItem {
+  padding: 2%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+html,
+body {
+    background-color: #F8F9FA;
+
+}
+
+
+
+#titulo1,
+#titulo2 {
+    text-align: center;
+    padding: 5%;
+
+}
+
+.imglimit {
+    width: 700px;
+    object-fit: cover;
+    min-height: 100%;
+    max-width: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+img {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
