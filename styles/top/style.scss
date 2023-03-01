@@ -1,0 +1,61 @@
+
+
+html,
+body {
+    background-color: #F8F9FA
+}
+
+nav {
+
+    height: 10%;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        li {
+            padding: 2% 2% 2% 2%;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+
+            a:hover {
+                img {
+                    filter: drop-shadow(2px 2px 5px green);
+                }
+            }
+        }
+    }
+
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imgbig {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.org {
+    padding: 5%;
+
+    h1 {
+        padding-bottom: 2%;
+    }
+
+    .topItem {
+        padding: 2%;
+
+    }
+}
