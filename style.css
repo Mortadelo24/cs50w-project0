@@ -15,7 +15,8 @@
         padding: 7px 12px;
         display: inline-block;
         font-size: 7px;
-        border-radius: 5%;
+        border-radius: 2%;
+        
     }
 
 }
@@ -150,10 +151,10 @@ body {
 
 .botones>a>button {
     background-color: #f2AA1f;
-
+    font-family: 'Bebas Neue', cursive;
     border: none;
-    color: #F1ECE7;
-    padding: 15px 24px;
+    color: #175359;
+    padding: 8px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -163,7 +164,7 @@ body {
 
 .botones>a>button:hover {
     background-color: #175359;
-    color: f2AA1f;
+    color: #f2AA1f;
 
 }
 
