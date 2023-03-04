@@ -2,6 +2,8 @@
 
 Web Programming with Python and JavaScript
 
+# https://mortadelo24.github.io/cs50w-project0/
+
 #Estructura
 En la carpeta raiz se encuentra el index.html.
 Dentro de la carpeta styles estan las carpetas de los estilos de los html o paginas con sass y css.
@@ -19,4 +21,4 @@ Es una pagina muy extraña la vedad pero tiene noticias ligeramente relevantes.
 
 ## Top 4 paginas que hice y luego no tuve mas ideas
 
-Esta pagina solamente es un top 4 paginas
+Esta pagina solamente es un top 4 paginas que...
