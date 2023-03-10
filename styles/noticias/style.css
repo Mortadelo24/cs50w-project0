@@ -4,7 +4,8 @@ body {
 }
 
 #titulo1,
-#titulo2 {
+#titulo2,
+#titulo3 {
   text-align: center;
   padding: 5%;
 }
@@ -24,4 +25,8 @@ img {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   user-select: none;
+}
+
+.tabla {
+  padding: 5%;
 }/*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@
 
 @media (max-width: 600px) {
     .botones {
-
+        
        
         gap: 5px 10px;
         padding-bottom: 10%;
@@ -17,6 +17,9 @@
         font-size: 7px;
         border-radius: 2%;
         
+    }
+    .parent{
+        visibility: hidden
     }
 
 }
