@@ -3,6 +3,10 @@ body {
   background-color: #F8F9FA;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #titulo1,
 #titulo2,
 #titulo3 {
@@ -28,5 +32,5 @@ img {
 }
 
 .tabla {
-  padding: 5%;
+  padding: 7%;
 }/*# sourceMappingURL=style.css.map */

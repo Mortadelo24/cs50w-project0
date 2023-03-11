@@ -3,6 +3,41 @@ $color-secundario: #000000;
 $color-complementario: #282A3A;
 $color-texto: #C69749;
 
+
+@media (max-width: 460px) {
+    
+    .galeria {
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 20px;
+        padding-bottom: 5%;
+        
+
+        .item {
+            
+            border: 2%;
+            text-align: center;
+            background-color: $color-complementario;
+            border-radius: 20px;
+
+            h2 {
+                color: $color-texto;
+                font-family: 'Shantell Sans', cursive;
+                padding-top: 3%;
+            }
+
+            img {
+                padding: 10px;
+                width: 80%;
+
+            }
+        }
+    }
+}
+
 %flexbasic {
     display: flex;
     flex-direction: row;
@@ -79,8 +114,10 @@ body {
             justify-content: center;
             gap: 20px 20px;
             padding-bottom: 5%;
+            
 
             .item {
+                
                 border: 2%;
                 text-align: center;
                 background-color: $color-complementario;
